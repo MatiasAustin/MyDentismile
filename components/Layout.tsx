@@ -154,9 +154,14 @@ export const Layout: React.FC<LayoutProps> = ({ children, currentPage, onNavigat
                </a>
             </div>
             
-            <div className="text-xs text-slate-400 flex gap-4">
-              <a href="#" className="hover:text-slate-900">Privacy</a>
-              <a href="#" className="hover:text-slate-900">Terms</a>
+            <div className="text-center md:text-right">
+              <div className="text-xs text-slate-400 flex gap-4 justify-center md:justify-end mb-2">
+                <a href="#" className="hover:text-slate-900">Privacy</a>
+                <a href="#" className="hover:text-slate-900">Terms</a>
+              </div>
+              <p className="text-[10px] uppercase tracking-widest text-slate-400 font-medium">
+                 Brand Experience by <span className="text-slate-600 font-bold">Matias Austin</span>
+              </p>
             </div>
           </div>
         </div>
