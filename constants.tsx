@@ -1,4 +1,4 @@
-import { Smile, Sparkles, Anchor, Syringe, Sun, Layers, Bandage, RefreshCw } from "lucide-react";
+import { Smile, Sparkles, Anchor, Syringe, Sun, Layers, Shield, RefreshCw } from "lucide-react";
 import { Service, Branch, Testimonial, TeamMember } from "./types";
 
 // Static Images from Unsplash - High Availability IDs
@@ -60,7 +60,7 @@ export const SERVICES: Service[] = [
     id: 'tambal',
     title: 'TAMBAL GIGI',
     description: 'Perbaikan gigi berlubang menggunakan bahan komposit berkualitas tinggi agar kembali utuh.',
-    icon: Bandage,
+    icon: Shield,
     imageUrl: "https://images.unsplash.com/photo-1629909615184-74f495363b67?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" // Chair View (Stable)
   },
   {
