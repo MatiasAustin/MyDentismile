@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Layout } from './components/Layout';
-import { WhatsAppButton } from './components/WhatsAppButton';
+import { AIChatWidget } from './components/AIChatWidget';
 import { Home } from './pages/Home';
 import { ServicesPage } from './pages/Services';
 import { AboutPage } from './pages/About';
@@ -35,7 +35,7 @@ const App: React.FC = () => {
           {renderPage()}
         </div>
       </Layout>
-      <WhatsAppButton />
+      <AIChatWidget />
     </div>
   );
 };
